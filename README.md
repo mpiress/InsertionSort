@@ -18,7 +18,15 @@ Insertion sort ou ordenação por inserção é um algoritmo de ordenação que 
 </p>
 
 <p align="justify">
-Para a implementação dessa estratégia é preciso criar no vetor de entrada uma posição adicional, reservando-a para as permutações. É comum a utilização da posição de índice 0, a qual é chamada de posição sentinela. Sob essa condição, o laço que realiza as comparações inicia na posição 1 e finaliza na posição N.
+Para a implementação dessa estratégia é preciso criar no vetor de entrada uma posição adicional, reservando-a para as permutações. É comum a utilização da posição de índice 0, a qual é chamada de posição sentinela. Sob essa condição, o laço que realiza as comparações inicia na posição 1 e finaliza na posição N. Vejamos um pequeno exemplo para duas interações do algoritmos com um vetor de 5 posições.
+</p>
+
+<p align="center">
+	<img src="imgs/insertion.png"/> 
+</p>
+
+<p align="justify">
+Nessa estratégia de ordenação, o número mínimo de movimentos ocorre quando os registros estão armazenados de forma crescente. Por outro lado, o máximo de comparações (i.e., pior caso) é gerado quando os registros do conjunto se encontram em ordem decrescente. Logo, este método torna-se uma boa solução quando os arquivos apresentarem ordenação parcial no conjunto. Além disso, é uma ótima opção para inserção de novos elementos em conjuntos de elementos já ordenados, apresentando para este caso custo linear ao tamanho da entrada. Por fim, trata-se de uma estratégia estável.
 </p>
 
 # Compilação e Execução
